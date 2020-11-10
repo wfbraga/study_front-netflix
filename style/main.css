@@ -26,7 +26,11 @@ header .logo {
   color: var(--vermelho);
   font-family: Arial Black;
 }
+header .category-button {
+  display: none;
+}
 header nav a{
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: antiquewhite;
   margin-right: 10px;
@@ -35,7 +39,12 @@ header nav a{
 header nav a:hover {
   color: #fff
 }
-
+.nav-list {
+  list-style-type: none;
+}
+.nav-list li {
+  display: inline;
+}
 /* filme principal */
 
 .main-movie {
@@ -50,7 +59,7 @@ header nav a:hover {
   align-items: start;
 }
 .main-movie .container {
-  width: 60%;
+  width: 40%;
 }
 .main-movie .title {
   margin-top: 15%;
