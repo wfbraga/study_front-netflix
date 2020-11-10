@@ -1,4 +1,56 @@
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background: var(--preto);
+  font-family: 'Times New Roman', Times, serif;
+  color: antiquewhite;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: Arial Black;
+}
+header nav a{
+  text-decoration: none;
+  color: antiquewhite;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff
+}
+
+/* filme principal */
+
+.main-movie {
+  padding: 20px;
+  font-size: 16px;
+  background: linear-gradient(rgb(0,0,0,.50), rgb(0,0,0,.50)100%), url('/img/houseOfCardsCover.png');
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.main-movie .description {
+  margin-bottom: 40px;
+}
+
