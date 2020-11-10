@@ -50,7 +50,33 @@ header nav a:hover {
   align-items: start;
 }
 
-.main-movie .description {
-  margin-bottom: 40px;
+.main-movie .title {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.main-movie .description {
+  margin: 0px 40px 15px 0px ;
+}
+
+.main-movie .main-button {
+  background-color: rgba(0, 0, 0, .50);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: .5s ease all;
+
+}
+
+.main-movie .main-button:hover {
+  background: white;
+  color: black;
+
+}
+.main-button i {
+  margin-right: 5px;
+}
