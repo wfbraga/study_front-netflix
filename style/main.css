@@ -50,7 +50,7 @@ header nav a:hover {
   align-items: start;
 }
 .main-movie .container {
-  width: 70%;
+  width: 60%;
 }
 .main-movie .title {
   margin-top: 15%;
@@ -81,4 +81,14 @@ header nav a:hover {
 }
 .main-button i {
   margin-right: 5px;
+}
+
+.carousel-movies {
+  padding: 5px;
+}
+
+.movie-box {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
